@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form validation</title>
+<script type="text/javascript" src="formjava.js"></script>
+</head>
+<body style="border:#00ff00 2px solid; padding:20px;margin: 10px 250px">
+
+<center>
+	<h1 style="font-family: cursive;">Form validation</h1>
+	<form onsubmit="return validateForm()">
+<!--Enter First name -->
+First Name<input type="text" id="fname" value="" placeholder="Enter First Name">
+<p id="fmsg" style="color: red"></p>
+<!--Enter Last name -->
+Last Name<input type="text" id="lname" value="" placeholder="Enter Last name">
+<p id="lmsg" style="color: red"></p>
+Email Address<input type="text" id="emailid" value="" placeholder="Enter Email Id">
+<p id="emsg" style="color: red"></p>
+<!--Create a new Password -->
+Password*<input type="Password" id="pswd1" value="" placeholder="Enter Password">
+<p id="pmsg" style="color: red"></p>
+<!-- Enter Confirm Password -->
+Confirm Password*<input type="Password" id="pswd2" value="" placeholder="Re-enter Password">
+<p id="cpmsg" style="color: red"></p>
+<input type="submit" value="submit">
+</form>
+</center>
+</body>
+</html>
